@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  height: 90px;
+  width: 90px;
+  border: 10px solid #404B69;
+  border-radius: 20px;
+  /* box-shadow: 10px 10px; */
+  font-size: 4vw;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 8vw;
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+  flex-wrap: wrap;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.A {
+  background-image: url("https://source.unsplash.com/100x150/?rock");
+}
+.B {
+  background-image: url("https://source.unsplash.com/100x150/?slow");
+}
+.C {
+  background-image: url("https://source.unsplash.com/100x150/?Claping");
+}
+.D {
+  background-image: url("https://source.unsplash.com/100x150/?splash");
+}
+.E {
+  background-image: url("https://source.unsplash.com/100x150/?stone");
+}
+.F {
+  background-image: url("https://source.unsplash.com/100x150/?sunflower");
+}
+.G {
+  background-image: url("https://source.unsplash.com/100x150/?war");
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
